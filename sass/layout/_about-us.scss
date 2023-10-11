@@ -1,0 +1,42 @@
+.aboutus {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @include desktop {
+    padding-top: $padding94;
+    padding-bottom: $padding94;
+  }
+}
+.aboutus__text__wrap {
+  width: 290px;
+
+  @include tablet {
+    width: 540px;
+  }
+  @include tablet {
+    width: 680px;
+  }
+}
+
+.aboutus__wrap {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  @include tablet {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+  }
+}
+
+.aboutus__video {
+  width: 290px;
+  @include tablet {
+    width: 380px;
+    height: 200px;
+  }
+  @include desktop {
+    width: 560px;
+    height: 315px;
+  }
+}
